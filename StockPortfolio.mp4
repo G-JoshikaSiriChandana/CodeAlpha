@@ -1,7 +1,7 @@
 import requests
 
 class StockPortfolio:
-    def _init_(self):
+    def __init__(self):
         self.stocks = {}
 
     def add_stock(self, symbol, quantity):
